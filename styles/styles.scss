@@ -1,0 +1,72 @@
+@import "_base";
+
+
+.navbar, footer{
+    background-color: $purple;
+}
+.carousel{
+    .carousel-item{
+        height: 60vh;
+
+        img{
+            padding-top: 2vh;
+            padding-bottom: 1vh;
+            height: inherit;
+        }
+    }
+}
+body{
+    background-color: $grey;
+    color: white;
+}
+.container{
+    background-color: $black;
+    font-family: $fnt;
+}
+.header{
+    padding: 3em;
+    background-image: url(/images/Small_Logo_purple.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 70% 30%;
+    text-align: center;
+    font-family: $fnt;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+h1{
+    text-align: left;
+    font-size: 5em;
+}
+.information{
+    font-family: $fnt2;
+}
+
+footer{
+    padding-bottom: 2em;
+
+    h6{
+        text-align: center;
+    }
+}
+.nav-2{
+    margin-left: 39.76%;
+    margin-right: 15%;
+}
+ .loco, .loco2{
+    width: 50vh;
+    margin: center;
+    padding-left: 5%; 
+    padding-top: 1.5%; 
+    padding-bottom: 2.5%;
+  }
+  .loco2{
+      margin-left: 15%;
+  }
+
+.contactjd{
+    padding-top: 1.5%;
+    text-align: center;
+
+}

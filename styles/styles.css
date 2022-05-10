@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant&family=Inconsolata&display=swap");
+.navbar, footer {
+  background-color: #6b569a;
+}
+
+.carousel .carousel-item {
+  height: 60vh;
+}
+
+.carousel .carousel-item img {
+  padding-top: 2vh;
+  padding-bottom: 1vh;
+  height: inherit;
+}
+
+body {
+  background-color: #717677;
+  color: white;
+}
+
+.container {
+  background-color: #292a2d;
+  font-family: "Inconsolata", monospace;
+}
+
+.header {
+  padding: 3em;
+  background-image: url(/images/Small_Logo_purple.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 70% 30%;
+  text-align: center;
+  font-family: "Inconsolata", monospace;
+  color: white;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+}
+
+h1 {
+  text-align: left;
+  font-size: 5em;
+}
+
+.information {
+  font-family: "Cormorant", serif;
+}
+
+footer {
+  padding-bottom: 2em;
+}
+
+footer h6 {
+  text-align: center;
+}
+
+.nav-2 {
+  margin-left: 39.76%;
+  margin-right: 15%;
+}
+
+.loco, .loco2 {
+  width: 50vh;
+  margin: center;
+  padding-left: 5%;
+  padding-top: 1.5%;
+  padding-bottom: 2.5%;
+}
+
+.loco2 {
+  margin-left: 15%;
+}
+
+.contactjd {
+  padding-top: 1.5%;
+  text-align: center;
+}
+/*# sourceMappingURL=styles.css.map */
