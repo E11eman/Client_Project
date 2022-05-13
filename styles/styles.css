@@ -1,6 +1,36 @@
 @import url("https://fonts.googleapis.com/css2?family=Cormorant&family=Inconsolata&display=swap");
+.header {
+  padding: 3em;
+  background-image: url(/images/womancry2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  font-family: "Inconsolata", monospace;
+  color: white;
+}
+
+h1 {
+  text-shadow: 3.5px 3.5px #292a2d;
+  text-align: center;
+  font-size: 6em;
+}
+
 .navbar, footer {
   background-color: #6b569a;
+}
+
+.dropdown-item-custom {
+  display: block;
+  width: 100%;
+  padding: 0.25rem 1rem;
+  clear: both;
+  font-weight: 400;
+  color: #6b569a;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
 }
 
 .carousel .carousel-item {
@@ -13,6 +43,19 @@
   height: inherit;
 }
 
+#carouselExampleCaptions {
+  width: 75%;
+  margin: auto;
+}
+
+#carouselExampleCaptions .carousel-caption {
+  font-family: "Inconsolata", monospace;
+  background-color: black;
+  border-radius: 35%;
+  opacity: 90%;
+  color: white;
+}
+
 body {
   background-color: #717677;
   color: white;
@@ -21,26 +64,7 @@ body {
 .container {
   background-color: #292a2d;
   font-family: "Inconsolata", monospace;
-}
-
-.header {
-  padding: 3em;
-  background-image: url(/images/Small_Logo_purple.JPG);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 70% 30%;
-  text-align: center;
-  font-family: "Inconsolata", monospace;
-  color: white;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr;
-      grid-template-columns: 1fr;
-}
-
-h1 {
-  text-align: left;
-  font-size: 5em;
+  padding-bottom: 2.5%;
 }
 
 .information {
@@ -56,20 +80,56 @@ footer h6 {
 }
 
 .nav-2 {
-  margin-left: 39.76%;
-  margin-right: 15%;
+  margin-top: 8%;
+  margin-left: 23.5%;
 }
 
-.loco, .loco2 {
-  width: 50vh;
+.foot-info {
+  color: white;
+  text-align: left;
+  margin-top: 3%;
+}
+
+.foot-info a:hover {
+  color: #717677;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.loco1 {
   margin: center;
+  margin-top: 5%;
+  margin-right: 100vh;
   padding-left: 5%;
-  padding-top: 1.5%;
-  padding-bottom: 2.5%;
+  padding-right: 5%;
+  height: 80%;
+  width: 100%;
+}
+
+.loco {
+  margin: center;
+  margin-top: 5%;
+  margin-right: 100vh;
+  padding-left: 5%;
+  padding-right: 5%;
+  height: 80%;
+  width: 100%;
 }
 
 .loco2 {
-  margin-left: 15%;
+  height: 100%;
+  width: 100%;
+  margin: center;
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-top: 1.5%;
+  padding-bottom: 2.5%;
 }
 
 .contactjd {
