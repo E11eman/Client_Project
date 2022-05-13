@@ -6,7 +6,7 @@
   background-repeat: no-repeat;
   background-position: right bottom;
   font-family: "Inconsolata", monospace;
-  color: white;
+  color: #f1eff2;
 }
 
 h1 {
@@ -53,12 +53,12 @@ h1 {
   background-color: black;
   border-radius: 35%;
   opacity: 90%;
-  color: white;
+  color: #f1eff2;
 }
 
 body {
   background-color: #717677;
-  color: white;
+  color: #f1eff2;
 }
 
 .container {
@@ -69,6 +69,14 @@ body {
 
 .information {
   font-family: "Cormorant", serif;
+}
+
+.cards {
+  color: #292a2d;
+}
+
+.cards .card {
+  background-color: #f1eff2;
 }
 
 footer {
@@ -85,7 +93,7 @@ footer h6 {
 }
 
 .foot-info {
-  color: white;
+  color: #f1eff2;
   text-align: left;
   margin-top: 3%;
 }
